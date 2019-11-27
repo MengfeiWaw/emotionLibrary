@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="">
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>(e)MOTION LIBRARY</title>
+        <script>
+          function greet_positive(){
+            alert("Great! Have a nice day!");
+          }
+
+          function greet_negetive(){
+            alert("In a poll of 1093 students, 78% said they experienced mental health issues. Don't worry, we are here for you!");
+          }
+        </script>
+    </head>
+    <body>
+        <img src="Logo.png" alt="(e)MOTION LIBRARY Logo" id="logo">
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand">Menu</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-item nav-link" href="index.html">Welcome</a>
+              <a class="nav-item nav-link" href="welcome-menu.html">Home<span class="sr-only"></span></a>
+              <a class="nav-item nav-link" href="search.html">Search</a>
+              <a class="nav-item nav-link" href="recording.html">Record</a>
+              <a class="nav-item nav-link" href="resources.html">Resources</a>
+              <a class="nav-item nav-link" href="learnmore.html">Learn More</a>
+            </div>
+          </div>
+      </nav>
+
+        <div class="jumbotron jumbotron-fluid" id="greetingletter">
+          <div class="container">
+            <h1 class="display-4">Welcome</h1>
+            <p class="lead">How Are You Feeling Today?</p>
+            <table class="table">
+                <tr class="align-middle">
+                    <td><a onclick="greet_positive()" href="welcome-menu.html">Extremely good</a></td>
+                    <td><a onclick="greet_positive()" href="welcome-menu.html">Happy</a></td>
+                    <td><a onclick="greet_positive()" href="welcome-menu.html">As usual</a></td>
+                </tr>
+                <tr class="align-middle">
+                    <td><a onclick="greet_negetive()" href="welcome-menu.html">Depressed</a></td>
+                    <td><a onclick="greet_negetive()" href="welcome-menu.html">Anxious</a></td>
+                    <td><a onclick="greet_negetive()" href="welcome-menu.html">Isolated</a></td>
+                </tr>
+                <tr class="align-middle">
+                    <td><a onclick="greet_negetive()" href="welcome-menu.html">Stressful</a></td>
+                    <td><a onclick="greet_negetive()" href="welcome-menu.html">Self-abased</a></td>
+                    <td><a onclick="greet_negetive()" href="welcome-menu.html">Hopeless</a></td>
+                </tr>
+            </table>
+          </div>
+        </div>
+    </body>
+</html>
